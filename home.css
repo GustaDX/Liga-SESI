@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "LIGA";
+    src: url("fontes/Killer\ Tech.ttf");
+  }
+  
+
+body{
+    background-color: #000;
+}
+header{
+    background-color: #000;
+}
+.nav2{
+    width: 100%;
+    background: #000;
+    color: aliceblue;
+    border-color: #000;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin: -10;
+}
+.fontee{
+    font-family: LIGA, sans-serif;
+    font-size: 34px;
+}
+div button{
+    float: right;
+}
+.nav5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inscreva{
+    background-color: #000;
+    color: aliceblue;
+    border-bottom-color: chartreuse;
+    font-family: LIGA, sans-serif;
+    font-size: 34px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.meio img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+  }
+.textos{
+    width: 50%;
+    text-align: center;
+}
+.textos h1{
+    margin-top: 20%;
+    text-align: center;
+    color: chartreuse;
+    font-family: LIGA, sans-serif;
+    font-size: 34px;
+}
+.textos p{
+    margin-top: 10%;
+    text-align: center;
+    color: aliceblue;
+}
+  .imagem {
+    float: right;
+    max-width: 50%;
+    max-height: 50%;
+    margin-right: 20px;
+}
+.parceiros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+    color: chartreuse;
+    font-family: LIGA, sans-serif;
+    font-size: 34px;
+}
+.parceiros img{
+    max-width: 50%;
+    max-height: 50%;
+}
+.organizadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  @media (max-width: 768px) {
+    .meio{
+        margin-top: -30%;
+    }
+
+    .container {
+        margin-top: -30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .imagem {
+      max-width: 50%;
+      max-height: 50%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    .organizadores{
+        display: flex;
+        justify-content: center;
+
+    }
+    .organizadores img{
+        margin-top: 5%;
+        max-width: 25%;
+        max-height: 25%;
+    }
+}
