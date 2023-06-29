@@ -97,9 +97,21 @@ div button{
     align-items: center;
 }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
+    .nav5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    header{
+        margin: 0%;
+        margin-bottom: 0%;
+    }
+
     .meio{
-        margin-top: -30%;
+        margin-top: 0%;
     }
 
     .container {
@@ -130,7 +142,7 @@ div button{
     }
     .organizadores img{
         margin-top: 5%;
-        max-width: 25%;
+        max-width: 20%;
         max-height: 25%;
     }
 }
