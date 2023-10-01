@@ -1,0 +1,3252 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+.sobre-nos {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    font-size: 48px;
+    color: white;
+}
+
+.sobre-nos p {
+    font-size: 25px;
+    line-height: 1.6;
+}
+  
+
+a.my-link {
+
+    text-decoration: none;
+   
+}
+
+
+
+
+.conteudo {
+    margin-top: 200px; 
+}
+
+.carousel-container {
+    margin-top: 30px;
+}
+
+.textobarra{
+
+    font-size: 20px;
+    font-family: Arial;
+    margin-top: 35px;
+
+
+}
+
+
+.logo {
+    margin-left: -50px;
+    max-height: 50px;
+}
+
+.style1,
+.style2 {
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.orange-link {
+    color: orange;
+}
+
+.blue-link {
+    color: blue;
+}
+
+.carousel-overlay {
+    position: relative;
+}
+
+
+.carousel-linka {
+    position: absolute;
+    background-color: rgb(255, 147, 65);
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    z-index: 2;
+    top: 74%;
+    font-size: 14px;
+    left: 49%;
+    text-align: center;
+    padding: 16px 40px;
+    transform: translate(-50%, -50%);
+    width: 24vh;
+    height: 7vh;
+}
+
+
+.carousel-linkb {
+    position: absolute;
+    background-color: rgb(255, 147, 65);
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    z-index: 2;
+    top: 75%;
+    font-size: 15px;
+    left: 50%;
+    text-align: center;
+    padding: 16px 40px;
+    transform: translate(-50%, -50%);
+    width: 28vh;
+    height: 7vh;
+}
+
+.carousel-link:hover {
+    background-color: rgb(255, 147, 100); 
+}
+
+.style0{
+
+    margin-left: 100px;
+
+}
+
+.style1{
+
+    margin-left: 70px;
+    color: rgb(255, 147, 65);
+
+}
+
+.style2{
+
+    margin-left: 70px;
+    color: rgb(0, 74, 173);
+
+}
+
+.pesquisa{
+
+margin-left: 100px;
+
+
+
+}
+
+
+.barrainferior{
+
+    display: flex;
+    width: 2000px;
+    height: 150px;
+    background-color: black;
+    position: fixed;
+    flex-direction: row;
+    margin-top: 640px;
+  
+    align-items: center;
+
+
+
+}
+
+.logo2{
+
+width: 200px;
+height: 100px;
+
+}
+
+.sep{
+
+
+    margin-top: 500px;
+}
+
+.fontebarra2{
+
+color: white;
+font-size: 22px;
+}
+
+.style3{
+
+ margin-left: 150px;
+ font-family: 'Martian Mono', monospace;
+ font-style: bold;
+ 
+
+}
+
+.style4{
+
+margin-top: 50px;
+
+}
+
+.style5{
+
+margin-top: 250px;
+
+}
+
+.fonttitulo1{
+
+font-size: 80px;
+color: rgb(255, 147, 65);
+font-family: 'Martian Mono', monospace;
+font-weight: bold;
+
+
+
+}
+
+.fonttexto{
+
+font-size: 40px;
+color: white;
+width: 60%;
+
+
+}
+
+.fonttitulo2{
+
+font-size: 40px;
+color: rgb(255, 147, 65);
+font-family: 'Martian Mono', monospace;
+font-weight: bold;
+
+}
+
+
+.icones{
+
+margin-top: 100px;
+width: 20%;
+margin-left: 100px ;
+
+}
+
+.style6{
+
+margin-left: 210px;
+
+}
+
+.style7{
+
+margin-top: 300px;
+color: red;
+font-size: 40px;
+
+
+
+}
+
+.menu {
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+
+.rodape {
+    height: 120px;
+    background-color: black;
+    color: white;
+}
+
+.ajus1{
+    margin-top: 200px;
+}
+
+
+.game-image {
+    width: 160px;
+    margin: 10px; 
+}
+
+.fontetitulo3{
+
+    color: white;
+    font-size: 80px;
+    font-family: 'Martian Mono', monospace;
+    font-weight: bold;
+    margin-bottom: 50px;
+   
+   }
+
+.contatos{
+
+margin-left: 445px;
+margin-top: 100px ;
+
+
+}
+
+.contatosrr{
+
+ margin-top: 100px;
+
+}
+
+.imgsobre{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.dagao{
+
+    width: 30%;
+
+}
+
+.fontesobre2{
+
+    width: 55%;
+    color: white;
+    margin-left: 300px;
+
+}
+
+.gekko{
+
+ width: 70%;
+
+}
+
+.barrav{
+
+ width: 30% ;
+ margin-right: 150px;
+
+}
+
+.titulosobrenos{
+
+margin-top: 260px;
+margin-left: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .sobre-nos {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .sobre-nos h2 {
+      font-size: 36px;
+    }
+  
+    .sobre-nos p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  
+    a.my-link {
+      text-decoration: none;
+    }
+  
+    .conteudo {
+      margin-top: 200px;
+    }
+  
+    .carousel-container {
+      margin-top: 30px;
+    }
+  
+    .textobarra {
+      font-size: 16px;
+      margin-top: 25px;
+    }
+  
+    .logo {
+      margin-left: -10px;
+      max-height: 40px;
+    }
+  
+    .style1,
+    .style2 {
+      margin-right: 10px;
+    }
+  
+    .navbar {
+      background-color: black;
+    }
+  
+    .orange-link {
+      color: orange;
+    }
+  
+    .blue-link {
+      color: blue;
+    }
+  
+    .carousel-overlay {
+      position: relative;
+    }
+  
+    .carousel-linka,
+    .carousel-linkb {
+      font-size: 14px;
+      padding: 12px 20px;
+      width: 155px;
+      height: auto;
+      top: 75%;
+      left: 49%;
+    }
+  
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+      margin-left: 10px;
+    }
+  
+    .barrainferior {
+      display: flex;
+      width: 100%;
+      height: auto;
+      background-color: black;
+      position: fixed;
+      flex-direction: column;
+      margin-top: 10px;
+      align-items: center;
+    }
+  
+    .logo2 {
+      width: 100px;
+      height: auto;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+    }
+  
+    .sep {
+      margin-top: 10px;
+    }
+  
+    .fontebarra2 {
+      color: white;
+      font-size: 16px;
+    }
+  
+    .style3 {
+      margin-left: 10px;
+      font-family: 'Martian Mono', monospace;
+      font-weight: bold;
+    }
+  
+    .style4 {
+      margin-top: 10px;
+    }
+  
+    .style5 {
+      margin-top: 10px;
+    }
+  
+    .fonttitulo1 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+  
+    .fonttexto {
+      font-size: 18px;
+      width: 90%;
+    }
+  
+    .fonttitulo2 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .icones {
+      margin-top: 20px;
+      width: 50%;
+      margin-left: 10px;
+    }
+  
+    .style6 {
+      margin-left: 10px;
+    }
+  
+    .style7 {
+      margin-top: 20px;
+      color: red;
+      font-size: 24px;
+    }
+  
+    .menu {
+      height: 80px;
+      background-color: black;
+      color: white;
+    }
+  
+    .rodape {
+      height: auto;
+      padding: 20px;
+      background-color: black;
+      color: white;
+    }
+  
+    .ajus1 {
+      margin-top: 20px;
+    }
+  
+    .game-image {
+      width: 100px;
+      margin: 10px;
+    }
+  
+    .fontetitulo3 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    .contatos {
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .contatosrr {
+      margin-top: 20px;
+    }
+  
+    .imgsobre {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .dagao {
+      width: 100%;
+    }
+  
+    .fontesobre2 {
+      width: 100%;
+      color: white;
+      margin-left: 10px;
+    }
+  
+    .gekko {
+      width: 100%;
+    }
+  
+    .barrav {
+      width: 100%;
+      margin-right: 10px;
+    }
+  
+    .titulosobrenos {
+      margin-top: 20px;
+      margin-left: 10px;
+      font-size: 24px;
+    }
+
+    .navbar {
+        background-color: black;
+      }
+    
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 10px; 
+        right: 10px; 
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho{
+        width: 40px;
+        height: auto;
+    }
+  }
+
+  @media screen and (max-width: 896px) {
+    .sobre-nos {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 36px;
+    }
+
+    .sobre-nos p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 200px;
+    }
+
+    .carousel-container {
+        margin-top: 30px;
+    }
+
+    .textobarra {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .logo {
+        margin-left: -10px;
+        max-height: 40px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 10px;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 14px;
+        padding: 12px 20px;
+        width: 155px;
+        height: auto;
+        top: 75%;
+        left: 49%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 10px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 100px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 10px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 16px;
+    }
+
+    .style3 {
+        margin-left: 10px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 10px;
+    }
+
+    .style5 {
+        margin-top: 10px;
+    }
+
+    .fonttitulo1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .fonttitulo2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .style6 {
+        margin-left: 10px;
+    }
+
+    .style7 {
+        margin-top: 20px;
+        color: red;
+        font-size: 24px;
+    }
+
+    .menu {
+        height: 80px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 20px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 20px;
+    }
+
+    .game-image {
+        width: 100px;
+        margin: 10px;
+    }
+
+    .fontetitulo3 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .contatos {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .contatosrr {
+        margin-top: 20px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .titulosobrenos {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 24px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 40px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 125px;
+        height: auto;
+        top: 75%;
+        left: 48%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80px;
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka{
+
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 140px;
+        height: auto;
+        top: 74%;
+        left: 49%;
+
+    }
+
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 160px;
+        height: auto;
+        top: 75%;
+        left: 50%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .sobre-nos {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 36px;
+    }
+
+    .sobre-nos p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80px;
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 200px;
+    }
+
+    .carousel-container {
+        margin-top: 30px;
+    }
+
+    .textobarra {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .logo {
+        margin-left: -10px;
+        max-height: 40px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 10px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 14px;
+        padding: 12px 20px;
+        width: 155px;
+        height: auto;
+        top: 75%;
+        left: 49%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 10px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 100px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 10px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 16px;
+    }
+
+    .style3 {
+        margin-left: 10px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 10px;
+    }
+
+    .style5 {
+        margin-top: 10px;
+    }
+
+    .fonttitulo1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 18px;
+        width: 90%;
+    }
+
+    .fonttitulo2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 20px;
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .style6 {
+        margin-left: 10px;
+    }
+
+    .style7 {
+        margin-top: 20px;
+        color: red;
+        font-size: 24px;
+    }
+
+    .menu {
+        height: 80px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 20px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 20px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 10px;
+    }
+
+    .fontetitulo3 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .contatos {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .contatosrr {
+        margin-top: 20px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .titulosobrenos {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 24px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 40px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80px;
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 125px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80px; 
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 125px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100px;
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 125px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 100px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 120px; /* Largura máxima para as imagens */
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 125px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 120px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 32px;
+    }
+
+    .sobre-nos p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 100px; /* Largura máxima para as imagens */
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 100px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 60px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 40%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 16px;
+    }
+
+    .menu {
+        height: 60px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 100px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 18px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 24px;
+    }
+
+    .sobre-nos p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80px; /* Largura máxima para as imagens */
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 100px;
+    }
+
+    .carousel-container {
+        margin-top: 10px;
+    }
+
+    .textobarra {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 25px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 10px;
+        padding: 8px 12px;
+        width: 100px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 50px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 10px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .fonttitulo2 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 8px;
+        width: 35%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 8px;
+        color: red;
+        font-size: 14px;
+    }
+
+    .menu {
+        height: 50px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+
+    .contatosrr {
+        margin-top: 8px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 8px;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 25px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .sobre-nos {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sobre-nos h2 {
+        font-size: 28px;
+    }
+
+    .sobre-nos p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .game-image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80px; /* Largura máxima para as imagens */
+    }
+
+    a.my-link {
+        text-decoration: none;
+    }
+
+    .conteudo {
+        margin-top: 150px;
+    }
+
+    .carousel-container {
+        margin-top: 20px;
+    }
+
+    .textobarra {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        margin-left: -5px;
+        max-height: 30px;
+    }
+
+    .style1,
+    .style2 {
+        margin-right: 5px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .orange-link {
+        color: orange;
+    }
+
+    .blue-link {
+        color: blue;
+    }
+
+    .carousel-overlay {
+        position: relative;
+    }
+
+    .carousel-linka,
+    .carousel-linkb {
+        font-size: 12px;
+        padding: 10px 15px;
+        width: 125px;
+        height: auto;
+        top: 70%;
+        left: 44%;
+    }
+
+    .style0,
+    .style1,
+    .style2,
+    .pesquisa {
+        margin-left: 5px;
+    }
+
+    .barrainferior {
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .logo2 {
+        width: 80px;
+        height: auto;
+    }
+
+    .sep {
+        margin-top: 5px;
+    }
+
+    .fontebarra2 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .style3 {
+        margin-left: 5px;
+        font-family: 'Martian Mono', monospace;
+        font-weight: bold;
+    }
+
+    .style4 {
+        margin-top: 5px;
+    }
+
+    .style5 {
+        margin-top: 5px;
+    }
+
+    .fonttitulo1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .fonttexto {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .fonttitulo2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .icones {
+        margin-top: 10px;
+        width: 45%;
+        margin-left: 5px;
+    }
+
+    .style6 {
+        margin-left: 5px;
+    }
+
+    .style7 {
+        margin-top: 10px;
+        color: red;
+        font-size: 20px;
+    }
+
+    .menu {
+        height: 70px;
+        background-color: black;
+        color: white;
+    }
+
+    .rodape {
+        height: auto;
+        padding: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    .ajus1 {
+        margin-top: 10px;
+    }
+
+    .game-image {
+        width: 80px;
+        margin: 5px;
+    }
+
+    .fontetitulo3 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .contatos {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .contatosrr {
+        margin-top: 10px;
+    }
+
+    .imgsobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dagao {
+        width: 100%;
+    }
+
+    .fontesobre2 {
+        width: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+
+    .gekko {
+        width: 100%;
+    }
+
+    .barrav {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .titulosobrenos {
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    .navbar-toggler-custom .navbar-toggler-icon {
+        color: yellow;
+    }
+
+    .imagem-tamanho {
+        width: 35px;
+        height: auto;
+    }
+}
